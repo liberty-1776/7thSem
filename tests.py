@@ -141,8 +141,8 @@ if __name__ == "__main__":
     """ training (dummy datasets) """
 
     # TEST 1
-    # test_bert_only_classification(pretrained_name_or_path="bert-base-multilingual-cased")
-    # test_bert_only_classification(pretrained_name_or_path="xlm-roberta-base")
+    test_bert_only_classification(pretrained_name_or_path="bert-base-multilingual-cased")
+    test_bert_only_classification(pretrained_name_or_path="xlm-roberta-base")
 
     # TEST 2
     # test_bert_only_tagging(pretrained_name_or_path="xlm-roberta-base", label_field="langids")
